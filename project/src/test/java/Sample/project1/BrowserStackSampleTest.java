@@ -20,7 +20,7 @@ public class BrowserStackSampleTest {
     caps.setCapability("browser", "Chrome");
     caps.setCapability("browser_version", "81");
     
-    caps.setCapability("name", "shekharanand1's First Test");
+    caps.setCapability("name", "Jenkins Integration Test");
     
     WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
     driver.get("http://www.google.com");
